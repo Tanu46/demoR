@@ -1,0 +1,443 @@
+body {
+    background: beige;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    background: white;
+    width: 15%;
+    border-radius: 10px;
+    height: 40%;
+}
+
+.container h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+.left-corner {
+    display: flex;
+
+    position: relative;
+    top: -30px;
+
+
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin: 0px 10px;
+
+    position: relative;
+    top: -30px;
+
+
+}
+
+.left-corner .left {
+    margin: 10px -15px;
+    /* padding:10px  20px; */
+
+}
+
+.left-corner .right {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.left-corner li {
+
+    background: rgb(171, 230, 171);
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 10px 20px;
+}
+
+/*  */
+.successful {
+    display: flex;
+    /* flex-direction: column; */
+    /* text-align: center; */
+    position: relative;
+    top: -20px;
+}
+
+.successful li {
+    /* background: rgb(100, 224, 100); */
+    background: rgb(171, 230, 171);
+    border-radius: 5px;
+    margin: 10px 70px;
+    padding: 5px 10px;
+}
+
+.successful .right {
+    position: relative;
+    left: -150px;
+    top: -10px;
+}
+
+.successful .left {
+    position: relative;
+    right: 50px;
+    top: -8px;
+}
+
+/*  */
+.landing {
+    display: flex;
+    position: relative;
+    top: -20px;
+}
+
+.landing li {
+
+    background: rgb(171, 230, 171);
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding: 5px 10px;
+}
+
+#year {
+    background-color: rgb(14, 248, 14);
+}
+
+/*  */
+.sec-1 .c-1 {
+    margin: -510px 760px;
+}
+
+/* ====== */
+.sec-1 .c-1 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/* ====== */
+
+.card .card-body {
+
+    background: white;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 40px 0px 40px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 420px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-body img {
+    width: 200px;
+
+
+    margin: 15px -15px 0px -15px;
+
+}
+
+.card-body h6 {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: darkblue;
+    margin: 10px 0px 10px -80px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card-body h5 {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0px 0px -22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.card-body h5 li {
+
+    font-size: 12px;
+    color: gray;
+    text-transform: capitalize;
+
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+
+.card-body h4 {
+
+    font-size: 14px;
+    font-weight: bold;
+    margin: -15px 0px 0px -40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card-body h4 span {
+    color: gray;
+    font-size: 12px;
+}
+
+.card-body h3 {
+
+    text-transform: capitalize;
+    border-bottom: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 40px;
+    margin: 30px -20px -20px -25px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: -45px;
+
+
+
+}
+
+.card-body h3 span {
+    font-size: 12px;
+    color: gray;
+    text-transform: lowercase;
+
+    padding: 0px 15px 0px 0px;
+    position: relative;
+    bottom: 20px;
+    left: 115px;
+
+}
+
+.card-body h2 {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: -30px 100px 60px -60px !important;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    position: relative;
+    left: 55px;
+
+
+}
+
+.card-body h2 span {
+    color: gray;
+    font-size: 12px;
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 0px 5px; */
+    position: relative;
+    bottom: 20px;
+    left: 90px;
+
+}
+
+.name {
+    text-transform: lowercase !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px !important;
+    line-height: 1.5;
+
+}
+
+.launch h3 {
+    margin: 35px -10px 20px -60px !important;
+
+    padding: 5px 20px !important;
+    position: relative;
+    left: 30px;
+}
+
+.launch h3 span {
+    position: relative;
+    left: 20px;
+    bottom: -0px;
+}
+
+.landing h2 {
+    margin: -30px 100px 60px -60px !important;
+    position: relative;
+    left: 50px;
+}
+
+.landing span {
+    position: relative;
+    left: 90px;
+    top: -20px;
+}
+
+/* --------- */
+.sec-2 .c-1 {
+    margin: 510px 760px 0px;
+}
+
+.sec-2 .c-1 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec-2 .card .card-body {
+
+    background: white;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 40px 0px 40px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 480px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sec-2.card-body img {
+    width: 200px;
+
+
+    margin: 15px -15px 0px -15px;
+
+}
+
+.sec-2 .card-body h6 {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: darkblue;
+
+    margin: 15px -20px 10px -80px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.sec-2 .card-body h5 {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 15px 0px -22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.sec-2 .card-body h5 li {
+
+    font-size: 13px;
+    color: gray;
+    text-transform: capitalize;
+
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+
+.sec-2 .card-body h4 {
+
+    font-size: 14px;
+    font-weight: bold;
+    margin: -15px 40px 0px -40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 22px;
+}
+
+.sec-2 .card-body h4 span {
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    left: 102px;
+    top: -18px;
+}
+
+.sec-2 .card-body h3 {
+
+    text-transform: capitalize;
+    border-bottom: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 40px;
+    margin: 30px -20px -20px -25px;
+    /* margin: -30px 100px 60px -60px !important; */
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: -60px;
+
+
+
+}
+
+.sec-2 .card-body h3 span {
+    font-size: 12px;
+    color: gray;
+    text-transform: lowercase;
+
+    padding: 0px 15px 0px 0px;
+    position: relative;
+    bottom: 35px;
+    left: 125px;
+
+}
+
+.sec-2 .card-body h2 {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: -20px 100px 60px -73px !important;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    position: relative;
+    left: 55px;
+
+
+}
+
+.sec-2 .card-body h2 span {
+    color: gray;
+    font-size: 12px;
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 0px 5px; */
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+
+}
+
+
+footer {
+
+    /* position: relative;
+ bottom: 500px; */
+
+    text-align: center;
+    margin: 30px 0px;
+}
+
+footer h1 {
+    font-size: 20px;
+}
+
+footer h1 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
